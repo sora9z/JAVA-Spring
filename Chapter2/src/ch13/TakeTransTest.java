@@ -8,7 +8,6 @@ public class TakeTransTest {
 		Student studentT=new Student("Tomas",10000);
 		
 		Bus bus100=new Bus(100);
-		Bus bus500=new Bus(500);
 		studentJ.takeBus(bus100);
 		
 		Subway greeSubway=new Subway(2);
