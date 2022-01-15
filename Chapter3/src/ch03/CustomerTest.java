@@ -17,7 +17,7 @@ public class CustomerTest {
 		customerKang.bounusPoint=10000;
 		System.out.println(customerKang.showCustomerInfo());
 		
-		Customer vc=new VIPCustomer(12345,"noname"); // type change
+		Customer vc=new VIPCustmoer(12345,"noname"); // type change
 		// vc는 vip 라고 해도 customer 메서드 등만 사용 가능 
 		
 
