@@ -7,7 +7,7 @@ public class PlayerTest {
 		Player player=new Player();
 		
 		player.getLevel();
-		player.play(2);
+		player.play(3);
 		
 		// Level up!! 
 		PlayerLevel advanced=new AdvancedLevel();
