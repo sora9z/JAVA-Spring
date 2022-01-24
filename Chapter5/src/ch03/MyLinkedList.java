@@ -39,7 +39,7 @@ public class MyLinkedList {
 		
 		int i; 
 		MyListNode tempNode=head;
-		MyListNode preNode=null;
+		
 		
 		MyListNode newNode = new MyListNode(data);
 		
@@ -53,6 +53,7 @@ public class MyLinkedList {
 		}
 		
 		else {
+			MyListNode preNode=null;
 			// position 바로 앞까지 prev 찾는다.
 			for(i=0;i<position;i++) {
 				preNode=tempNode;
@@ -89,7 +90,7 @@ public class MyLinkedList {
 			}
 			
 			// 지워지는 것은 temp
-			preNode=tempNode.next;				
+			preNode.next=tempNode.next;				
 		}
 		count--;
 		System.out.println(position+"th Node was deleted");
@@ -148,6 +149,8 @@ public class MyLinkedList {
 		count=0;
 	}
 	
+	
+	
 	public void printAll() {
 		if(count==0) {
 			System.out.println("The list is empty now");
@@ -169,6 +172,11 @@ public class MyLinkedList {
 		return count;
 	}
 	
+	public boolean isEmpty() {
+		if(head==null)
+			return true;
+		return false;
+	}
 
 
 	
