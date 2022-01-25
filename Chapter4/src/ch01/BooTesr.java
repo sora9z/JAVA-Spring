@@ -15,8 +15,6 @@ class Book{
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-//		return super.toString();
 		return title + ',' + author;
 	}
 	
@@ -32,8 +30,9 @@ public class BooTesr {
 		
 		System.out.println(book);
 		// ch01.Book@251a69d7  class의 full name   // 251a69d7  :JVM이 준 가상 메모리 16진수 
-	String str=new String("test");
+	String str=new String("String Objec");
 	System.out.println(str);  // test  문장열이 나온다.이 경우 str.toString 이 자동으로 재정의 되어있기 때문이다.
+	
   
 	}
 

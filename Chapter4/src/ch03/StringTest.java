@@ -7,7 +7,7 @@ public class StringTest {
 		String java=new String("java");
 		String android=new String("android");
 		
-		System.out.println(System.identityHashCode(java)); // hash 같게 나오므로 indenti로 
+		System.out.println(System.identityHashCode(java)); // hash 같게 나오므로 indentfyHashCode로 
 		
 		
 		java=java.concat(android);

@@ -11,9 +11,15 @@ public class ClassTest {
 		
 		Person person = (Person)c1.newInstance(); // duplicate 예정  
 		
+		Person p1=new Person("sora",26);
+		System.out.println("entity name : "+p1.getClass().getName());
 		
-		person.setName("dd");
+		
+		
+		person.setName("i am person");
 		System.out.println(person);
+		
+		System.out.println("entity name : "+person.getName());
 		
 		Class c2 = person.getClass(); // obj의 함수  instance 존재 해야함 
 		Person p=(Person)c2.newInstance(); // no name..
@@ -28,6 +34,8 @@ public class ClassTest {
 		System.out.println(kim);
 		
 		Person kim2=new Person("kim", 0) ;// 위의경우와 같음.  
+		
+		
 		
 		
 		

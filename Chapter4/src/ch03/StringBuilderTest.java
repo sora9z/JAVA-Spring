@@ -8,8 +8,8 @@ public class StringBuilderTest {
 		String android=new String("android");
 		
 		StringBuilder buffer=new StringBuilder(java);  // 매개변수로 str 가능 
-		buffer.append(android);
 		System.out.println(System.identityHashCode(buffer)); // 동일 
+		buffer.append(android);
 		
 		
 		System.out.println(System.identityHashCode(buffer)); // 동일  

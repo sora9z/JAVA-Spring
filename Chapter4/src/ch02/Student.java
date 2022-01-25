@@ -8,7 +8,7 @@ public class Student implements Cloneable{
 	public Student(int studentNum ,String studentName) {
 		this.studentNum=studentNum;
 		this.studentName=studentName;
-	}
+	}	
 	public void setName(String name) {
 		this.studentName=name;
 	}
