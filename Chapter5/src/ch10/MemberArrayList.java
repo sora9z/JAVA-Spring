@@ -56,7 +56,7 @@ public class MemberArrayList {
 	// iterator 사용  
 	public boolean removeMemberIr(int memberId) {
 		Iterator <Member>ir=arrayList.iterator();
-		// <Member 안 하면 Objevt반환 
+		// <Member 안 하면 Objet반환 
 		while(ir.hasNext()) {
 			Member member=ir.next();
 			int tempId=member.getMemberId();
